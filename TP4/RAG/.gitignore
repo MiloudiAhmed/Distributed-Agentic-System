@@ -1,0 +1,19 @@
+# Environnement et caches locaux
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# Base vectorielle générée par Chroma
+store/
+store_gemini/
+
+# Secrets et fichiers de configuration locaux
+.env
+.env.*
+
+# Document personnel contenant des coordonnées privées
+pdfs/cv_ahmed_miloudi.pdf
+pdfs/*.pdf
+
+# Dossiers ajoutés par macOS dans l'archive ZIP
+__MACOSX/

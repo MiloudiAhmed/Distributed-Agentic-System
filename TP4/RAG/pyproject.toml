@@ -1,0 +1,30 @@
+[project]
+name = "tp4-rag"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Ahmed Miloudi", email = "ahmed.miloudi.mld@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "chromadb",
+    "ipykernel",
+    "langchain",
+    "langchain-chroma>=1.1.0",
+    "langchain-community",
+    "langchain-google-genai>=4.4.2",
+    "langchain-ollama>=1.1.0",
+    "langchain-openai",
+    "langchain-text-splitters",
+    "pypdf",
+    "python-dotenv",
+    "tiktoken",
+]
+
+[project.scripts]
+tp4-rag = "tp4_rag:main"
+
+[build-system]
+requires = ["uv_build>=0.12.23,<0.13.0"]
+build-backend = "uv_build"
